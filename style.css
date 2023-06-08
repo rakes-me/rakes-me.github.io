@@ -1,0 +1,26 @@
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: var(--scroll-padding, 80px);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.about > * {
+  list-style: None;
+}
+
+body {
+  background-color: black;
+}
+.main {
+  padding-top: 30px;
+}
+section {
+  margin: 50px;
+  padding: 15px;
+  border: 2px 2px 2px 2px black;
+  border-style: double;
+}

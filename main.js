@@ -4,7 +4,11 @@ document.documentElement.style.setProperty(
   navigationHeight + 10 + "px"
 );
 
-$("nav a").on("click", function () {
+$("#brand").on("click", function () {
+  $("nav").find(".active").removeClass("active");
+});
+
+$("#menu-collapse a").on("click", function () {
   $("nav").find(".active").removeClass("active");
   $(this).addClass("active");
 });

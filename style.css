@@ -16,6 +16,32 @@ html {
 body {
   background-color: black;
 }
+
+nav {
+  background-color: black;
+}
+
+.navbar-toggler {
+  background-color: white;
+  border-radius: 0;
+}
+
+.nav-link {
+  color: white;
+}
+
+.active {
+  background-color: white;
+}
+
+.nav-link:hover {
+  color: gray;
+}
+
+#brand {
+  color: white;
+}
+
 .main {
   padding-top: 30px;
 }
@@ -24,4 +50,8 @@ section {
   padding: 15px;
   border: 2px 2px 2px 2px black;
   border-style: double;
+}
+
+.highlight {
+  background-color: red;
 }
